@@ -107,7 +107,7 @@ namespace ArchivosBinarios
                             Console.WriteLine("Dias trabajados del empleado: " + diasTrabajados);
                             Console.WriteLine("Salario diario del empleado: " + salarioDiario);
 
-                            Console.WriteLine("SUELDO TOTAL DEL empleado: {0:C}");
+                            Console.WriteLine("SUELDO TOTAL DEL empleado: {0:C}", (diasTrabajados * salarioDiario));
                             Console.WriteLine("\n");
                         } while (true);
                     }
@@ -148,7 +148,7 @@ namespace ArchivosBinarios
             do
             {
                 Console.Clear();
-                Console.WriteLine("\n*** ARCHIVO BINARIO EMPLEADOS***");
+                Console.WriteLine("*** ARCHIVO BINARIO EMPLEADOS***");
                 Console.WriteLine("1.- Creación de un Archivo.");
                 Console.WriteLine("2.- Lectura de un Archivo.");
                 Console.WriteLine("3.- Salida del Programa.");
